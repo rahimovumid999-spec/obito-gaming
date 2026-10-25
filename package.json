@@ -1,0 +1,20 @@
+
+{
+  "name": "obito-gaming-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Obito Gaming CS 1.6 website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
